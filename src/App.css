@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+h1 {
+  margin-bottom: 0;
+}
 
 .App {
   margin: 0 auto;
   width: 1280px;
+}
+
+.icon {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button-upper {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.material-icons {
+  font-size: 30px;
+  color: #717171;
 }
 
 .card_view {
@@ -17,7 +38,7 @@
   background-color: #F5F5F5;
   margin-right: 30px;
   margin-bottom: 30px;
-  border-radius: 25%
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.146);
 }
 
 .box {
@@ -28,6 +49,18 @@
   background-color: #F5F5F5;
 }
 
+.price {
+  font-style: italic;
+  margin-right: 20px;
+  color: rgb(250, 78, 78);
+}
+.price-button-container {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+
 .card-img {
   width: 300px;
   height: 300px;
@@ -36,4 +69,21 @@
 .card-list-img {
   width: 150px;
   height: 150px;
+}
+
+.card-button {
+  color: rgb(250, 78, 78);
+  padding: 14px 30px;
+  border-radius: 20px;
+  border-color: rgb(250, 78, 78);
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #F5F5F5;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.name-list {
+  font-size: 20px;
+  font-weight: 500;
 }
